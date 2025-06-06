@@ -84,7 +84,6 @@ def handle_params23():
 
 # so use post inside the @app.route--
 @app.route('/hello3', methods=['POST','GET'])
-
 def hello3():
     return "<h1>Hello World</h1>"
 #input in powershell=
@@ -92,7 +91,6 @@ def hello3():
 # output=<h1>Hello World</h1>
 
 @app.route('/hello4', methods=['POST','GET'])
-
 def hello4():
     if request.method=="GET":
         return "u made a get request"

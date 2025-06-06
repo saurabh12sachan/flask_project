@@ -17,7 +17,7 @@ def index():
 @app2.route('/other')
 def other():
     mylist={10,20,30,40,50}
-    return render_template('other.html',mylist=mylist)
+    return render_template('other.html')
 
 
 
